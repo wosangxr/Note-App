@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "expo-sqlite-notes",
+    "name": "SQLite Notes",
     "slug": "expo-sqlite-notes",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -10,20 +10,30 @@
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#1a1a2e"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.student.sqlitenotes"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#1a1a2e"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.student.sqlitenotes"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-sqlite"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "0174182e-3a8b-4ed3-ab0d-1df49dfff2ef"
+      }
     }
   }
 }
