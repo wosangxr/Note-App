@@ -1,3 +1,5 @@
+แอปโน็ต
+
 # Note App
 
 This is a React Native Note Application built with SQLite.
